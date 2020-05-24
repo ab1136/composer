@@ -1,0 +1,21 @@
+{
+  "name": "huangjj/composer",
+  "description": "learn composer",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "hjj",
+      "email": "huangjj@houdunren.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "src/lib/helper.php"
+    ],
+    "psr-4": {
+      "huangjj\\composer\\": "src"
+    }
+  },
+  "require": {}
+}
