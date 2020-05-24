@@ -17,5 +17,7 @@
       "huangjj\\composer\\": "src"
     }
   },
-  "require": {}
+  "require": {
+    "dompdf/dompdf": "^0.8.5"
+  }
 }
